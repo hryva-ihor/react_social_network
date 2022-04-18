@@ -1,11 +1,11 @@
 import React from "react";
-import { addNewPostActionCreator } from "../../../redux/state";
+import { addNewPostActionCreator } from "../../../redux/posts_reducer";
 import style from "./MyPosts.module.scss";
 import Post from "./Post/Post";
 
 const MyPosts = (props) => {
   let newPostTextArea = React.createRef();
-  let onPostChange = () => {
+  let onPostChange = (e) => {
     props.dispatch(addNewPostActionCreator(newPostTextArea));
   };
   return (
@@ -28,7 +28,7 @@ const MyPosts = (props) => {
         {props.postsData.map((post) => {
           return (
             <Post
-              massege={post.massege}
+              massege={post.postMassege}
               likesCount={post.likesCount}
               key={post.id}
             />

@@ -5,7 +5,7 @@ import Massege from "./MassegeItem/MassegeItem";
 import {
   sendMassegeActionCreator,
   updateNewMassegeBodyActionCreator,
-} from "../../redux/state";
+} from "../../redux/dialogs_reduser";
 
 const Dialogs = (props) => {
   // debugger;

@@ -1,0 +1,35 @@
+.post_item{
+    color: red;
+}
+.ava_name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ava_name img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.ava_name span{
+    color:saddlebrown;
+}
+.text{
+    position: relative;
+    margin: 30px;
+}
+.text::before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    width: 20px;
+    height: 2px;
+    left: -30px;
+    top: 50%;
+
+
+}

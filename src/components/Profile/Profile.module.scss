@@ -1,0 +1,12 @@
+.main{
+    grid-area: main;
+    background-color: rgba(95, 158, 160, 0.317);
+}
+.main_img img{
+    max-height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+.main_content{
+    padding: 20px;
+}

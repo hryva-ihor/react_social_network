@@ -1,0 +1,11 @@
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    max-height: 200px;
+    grid-area: header;
+    background-color: rgba(0, 0, 255, 0.61);
+}
+.header img{
+height: 100%;
+}

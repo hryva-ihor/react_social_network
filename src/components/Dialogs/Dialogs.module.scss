@@ -1,0 +1,41 @@
+.dialogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.dialogs > div{
+    display: flex;
+}
+.dialogs__user, .dialogs__massege{
+    padding: 10px 20px;
+}
+.dialogs__massege{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.dialogs__user{
+    border-right: 1px solid gray;
+}
+
+.dialogs__user > div, .dialogs__massege > div{
+    margin-bottom: 10px;
+}
+.dialogs__user_item_link{
+    text-decoration: none;
+    color: indianred;
+}
+.dialog_active{
+    text-decoration: none;
+    color:indigo;
+}
+textarea{
+    resize: none;
+}
+.send_massege_area{
+    margin-top: 10px;
+    
+    
+}
